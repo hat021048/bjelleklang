@@ -54,7 +54,7 @@ function rif1 () {
     music.playTone(587, music.beat(BeatFraction.Quarter))
     basic.pause(imellom)
     music.playTone(392, music.beat(BeatFraction.Quarter))
-    basic.pause(imellom)
+    basic.pause(imellom + 50)
     music.playTone(440, music.beat(BeatFraction.Eighth))
     basic.pause(imellom)
     music.playTone(494, music.beat(BeatFraction.Whole))
